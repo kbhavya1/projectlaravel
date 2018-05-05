@@ -1,0 +1,58 @@
+.sidenav {
+    height: 100%;
+    width:  25vh;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(225,245,253);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+
+.topBox{
+  height: 10vh;
+}
+h1{
+  font-size: 3vh;
+  color: blue;
+}
+.inDiv{
+  position: relative;
+  padding-left: 20px;
+}
+
+.firstmcontent{
+  position: relative;
+  left:30vh;
+  float: left;
+  padding: 10px;
+}
+
+.progbar{
+ position: absolute;
+ bottom: 0px;
+ left: 30vh;
+}
+
+.openPaper{
+  height: 35vh;
+  border: 2px rgb(231,231,231) solid;
+  width: 75%;
+  position: relative;
+  left: 30vh;
+  margin: 30px;
+}
